@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <title>Desafio da memória</title>
+    </head>
+
+    <body>
+        <h1>Desafio da memória</h1>
+        <button type="button" class="btn btn-primary" onclick="jogar1()">Player 1</button>
+        <button type="button" class="btn btn-primary" onclick="jogar2()">Player 2</button>
+        <button type="button" class="btn btn-primary" onclick="jogar3()">Player 3</button>
+        <button type="button" class="btn btn-primary" onclick="jogar4()">Player 4</button>
+        <form action="#">
+            <div class="form-group">
+                <label for="numA">Player 1</label>
+                <input type="text" name="numA" id="numA">
+                <button type="button" class="btn btn-primary" onclick="resposta1()">Responder</button>
+            </div>
+        </form>
+        <form action="#">
+            <div class="form-group">
+                <label for="numB">Player 2</label>
+                <input type="text" name="numB" id="numB">
+                <button type="button" class="btn btn-primary" onclick="resposta2()">Responder</button>
+            </div>
+        </form>
+        <form action="#">
+            <div class="form-group">
+                <label for="numC">Player 3</label>
+                <input type="text" name="numC" id="numC">
+                <button type="button" class="btn btn-primary" onclick="resposta3()">Responder</button>
+            </div>
+        </form>
+        <form action="#">
+            <div class="form-group">
+                <label for="numD">Player 4</label>
+                <input type="text" name="numD" id="numD">
+                <button type="button" class="btn btn-primary" onclick="resposta4()">Responder</button>
+            </div>
+        </form>
+        <button type="button" class="btn btn-primary" onclick="vitoria()">Resultado</button>
+        <script src="script.js"></script>
+    </body>
+
+</html>
