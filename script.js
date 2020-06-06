@@ -18,6 +18,7 @@ function numero() {
 function jogar1() {
     resultado1 = numero()
     alert(resultado1)
+
 }
 
 function jogar2() {
@@ -72,4 +73,8 @@ function vitoria() {
         alert('Player 4 acertou')
     else
         alert('Player 4 errou')
+}
+
+function novoJogo() {
+
 }
