@@ -11,33 +11,32 @@
 
     <body>
         <h1>Desafio da memória</h1>
-        <button type="button" class="btn btn-primary" onclick="jogar1(this)">Player 1</button>
-        <button type="button" class="btn btn-primary" onclick="jogar2()">Player 2</button>
-        <button type="button" class="btn btn-primary" onclick="jogar3()">Player 3</button>
-        <button type="button" class="btn btn-primary" onclick="jogar4()">Player 4</button>
-        <button type="button" class="btn btn-primary" onclick="começar()">Começar</button>
+        <button type="button" class="btn btn-outline-primary" onclick="jogar1(this)">Player 1</button>
+        <button type="button" class="btn btn-outline-danger" onclick="jogar2(this)">Player 2</button>
+        <button type="button" class="btn btn-outline-success" onclick="jogar3(this)">Player 3</button>
+        <button type="button" class="btn btn-outline-warning" onclick="jogar4(this)">Player 4</button>
+        <button type="button" class="btn btn-primary" onclick="começar(this)">Começar</button>
         <div class="form-group">
             <label for="numA">Player 1</label>
             <input type="text" name="numA" id="numA">
-            <button type="button" class="btn btn-primary" onclick="resposta1()">Responder</button>
+            <button id="um" type="button" class="btn btn-primary" onclick="resposta1()">Responder</button>
         </div>
         <div class="form-group">
             <label for="numB">Player 2</label>
             <input type="text" name="numB" id="numB">
-            <button type="button" class="btn btn-primary" onclick="resposta2()">Responder</button>
+            <button id="dois" type="button" class="btn btn-danger" onclick="resposta2()">Responder</button>
         </div>
         <div class="form-group">
             <label for="numC">Player 3</label>
             <input type="text" name="numC" id="numC">
-            <button type="button" class="btn btn-primary" onclick="resposta3()">Responder</button>
+            <button id="tres" type="button" class="btn btn-success" onclick="resposta3()">Responder</button>
         </div>
         <div class="form-group">
             <label for="numD">Player 4</label>
             <input type="text" name="numD" id="numD">
-            <button type="button" class="btn btn-primary" onclick="resposta4()">Responder</button>
+            <button id="quatro" type="button" class="btn btn-warning" onclick="resposta4()">Responder</button>
         </div>
-        <button type="button" class="btn btn-primary" onclick="vitoria()">Resultado</button>
-        <button type="button" class="btn btn-primary" onclick="novoJogo()">Novo jogo</button>
+        <button type="button" class="btn btn-dark" onclick="novoJogo()">Novo jogo</button>
         <script src="script.js"></script>
     </body>
 
